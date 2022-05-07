@@ -1,3 +1,30 @@
-body{
-    background-color: aquamarine;
-}
+//
+// main sass file
+//
+
+// 1. `utils/`
+@use "utils/variables";
+@use "utils/function";
+@use "utils/helpers";
+@use "utils/mixins";
+
+
+// 2. `vendors/`
+@use "vedors/bootstrap";
+
+
+// 3. `base/`
+@use "base/reset";
+@use "base/typography";
+
+
+// 4. `layout/`
+// add layout here after you finish the layout
+
+// 5. `components/`
+@use "components/button";
+
+
+// 6. `pages/`
+@use "pages/index";
+@use "pages/order";
